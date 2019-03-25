@@ -1,0 +1,22 @@
+<view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" hover-class="none" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="bindViewTap"> 未登录/获取登录信息 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+      <text class="my-scores">我的积分：{{scores}}</text>
+    </block>
+  </view>
+  <view class="divLine"></view>
+  <view class="btn-window">
+    <navigator hover-class="none" url="my-scoreMall/my-scoreMall">
+      <button hover-class="none" class="btn1">积分商城</button>
+    </navigator>
+    <navigator hover-class="none" url="my-pingpingdaidai/my-pingpingdaidai">
+      <button hover-class="none" class="btn2">我的瓶瓶袋袋</button>
+    </navigator>
+    <navigator hover-class="none" url="/pages/index/index-myScores/index-myScores">
+      <button hover-class="none" class="btn3">我的积分</button>
+    </navigator>
+  </view>
+</view>

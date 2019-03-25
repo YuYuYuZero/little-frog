@@ -1,0 +1,24 @@
+<view class="container">
+  <view class="btn1">
+    <text style='display: flex;flex-direction: column;align-items: center;'>各大超市联合让利促销！</text>
+  </view>
+  <view class="lines">
+    <view class="line1">
+      <image class="advertisement" style="width:300rpx;height:300rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E1.png"></image>
+      <image class="advertisement" style="width:300rpx;height:326rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E3.png"></image>
+      <image class="advertisement" style="width:300rpx;height:300rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E1.png"></image>
+      <image class="advertisement" style="width:300rpx;height:326rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E3.png"></image>
+      <image class="advertisement" style="width:300rpx;height:300rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E1.png"></image>
+      <image class="advertisement" style="width:300rpx;height:326rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E3.png"></image>
+      <image class="advertisement" style="width:300rpx;height:300rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E1.png"></image>
+    </view>
+     <view class="line2">
+      <image class="advertisement" style="width:300rpx;height:326rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E2.png"></image>
+      <image class="advertisement" style="width:300rpx;height:401rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E4.png"></image>
+      <image class="advertisement" style="width:300rpx;height:326rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E2.png"></image>
+      <image class="advertisement" style="width:300rpx;height:401rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E4.png"></image>
+      <image class="advertisement" style="width:300rpx;height:326rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E2.png"></image>
+      <image class="advertisement" style="width:300rpx;height:401rpx;" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E5%95%86%E5%9F%8E4.png"></image>
+    </view> 
+  </view>
+</view>

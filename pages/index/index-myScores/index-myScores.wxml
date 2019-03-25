@@ -1,0 +1,116 @@
+<!--pages/index/index-myScores/index-myScores.wxml-->
+<view class="container">
+  <view class="tab_userinfo">
+    <view class="userinfo">
+      <button sytle="position:relative;top:160rpx" hover-class="none" wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="bindViewTap"> 未登录/获取登录信息 </button>
+      <block wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <text class="total-score">积分：60分</text>
+        <text class="my-scores">购物袋积分：50分</text>
+        <text class="my-scores">分装瓶积分：10分</text>
+      </block>
+    </view>
+  </view>
+
+  <view class="tab_scoresWindow">
+    <view style="justify-content:flex-start;">
+      <image src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E9%92%B1%E5%8C%85.png" mode="aspecrFit" style="width:40rpx;height:40rpx;margin-left:30rpx;margin-right:30rpx"></image>
+      <text>ID 685132</text>
+    </view>
+    <view class="line1">
+      <view style="background-color:#195680;color:white;">10</view>
+      <view style="background-color:#195680;color:white;">10</view>
+      <view style="background-color:#195680;color:white;">10</view>
+      <view style="background-color:#195680;color:white;">10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>20</view>
+    </view>
+    <view class="line2">
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>30</view>
+    </view>
+    <view class="line3">
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>50</view>
+    </view>
+  </view>
+
+  <view class="tab_scoresWindow">
+    <view style="justify-content:flex-start;">
+      <image src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E9%92%B1%E5%8C%85.png" mode="aspecrFit" style="width:40rpx;height:40rpx;margin-left:30rpx;margin-right:30rpx"></image>
+      <text>ID 154682</text>
+    </view>
+    <view class="line1">
+      <view style="background-color:#195680;color:white;">10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>20</view>
+    </view>
+    <view class="line2">
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>30</view>
+    </view>
+    <view class="line3">
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>50</view>
+    </view>
+  </view>
+
+  <view class="tab_scoresWindow">
+    <view style="justify-content:flex-start;">
+      <image src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E7%93%B6%E5%AD%90.png" mode="aspecrFit" style="width:40rpx;height:40rpx;margin-left:30rpx;margin-right:30rpx"></image>
+      <text>ID 986133</text>1
+    </view>
+    <view class="line1">
+      <view style="background-color:#195680;color:white;">10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>20</view>
+    </view>
+    <view class="line2">
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>30</view>
+    </view>
+    <view class="line3">
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>10</view>
+      <view>50</view>
+    </view>
+  </view>
+</view>

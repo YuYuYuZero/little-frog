@@ -1,0 +1,49 @@
+/* pages/index/index-myCardPackage/index-myCardPackage.wxss */
+.container > text {
+  color: #707070;
+  line-height: 80rpx;
+  position: relative;
+  top: 14rpx;
+  right: 300rpx;
+}
+
+.tab_cardInfo {
+  width: 680rpx;
+  height: 128rpx;
+  background-color: white;
+  padding: 15rpx;
+  margin: 20rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20rpx;
+  box-shadow:0 0 6px #dddddd;
+}
+
+.card_content {
+  position:relative;
+  left: 40rpx;
+  width: 320rpx;
+}
+
+.card_what {
+  /* display: flex; */
+  font-size: 32rpx;
+}
+
+.card_condition {
+  /* display: flex; */
+  font-size: 18rpx;
+}
+
+.tab_cardInfo > button {
+  position:relative;
+  left:80rpx;
+  font-size: 24rpx;
+  color: #707070;
+  background-color: #ffffff;
+}
+
+.tab_cardInfo > button::after {
+  border: none;
+}

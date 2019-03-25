@@ -1,0 +1,14 @@
+/**index.wxss**/
+.container{
+   width: 100%;
+}
+
+image {
+  width: 100%;
+  height: 364rpx;
+}
+
+.btn-window {
+  position: relative;
+  top: 100rpx; 
+}

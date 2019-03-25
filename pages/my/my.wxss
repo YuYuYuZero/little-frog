@@ -1,0 +1,49 @@
+
+.userinfo {
+  position: relative;
+  top: 60rpx; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500rpx;
+}
+
+.userinfo > button {
+  position:relative;
+   top:60rpx; 
+}
+
+.userinfo-avatar {
+  width: 256rpx;
+  height: 256rpx;
+  /* margin: 32rpx; */
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #000000;
+  font-size: 32rpx;
+  margin: 8rpx; 
+}
+
+.my-scores {
+  color: #AFAFAF;
+  font-size: 32rpx;
+  margin: 16rpx;
+}
+
+.btn-window {
+  position: relative;
+  /* top: 50rpx; */
+}
+
+
+/*分割线样式*/
+.divLine{
+  position: relative;
+  bottom: 30rpx; 
+  background: #707070;
+  width: 600rpx;
+  height: 3rpx;
+  margin: 10rpx;
+}

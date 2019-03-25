@@ -1,0 +1,181 @@
+.container {
+  height: 100%;
+  width: 750rpx;
+}
+
+.container > text {
+  line-height: 70rpx;
+  justify-content: flex-start;
+  position: relative;
+  top: 15rpx;
+  right: 250rpx;
+  color: #707070;
+  font-size: 28rpx;
+}
+
+.tab_indInfo {
+  width: 680rpx;
+  height: 180rpx;
+  background-color: white;
+  padding: 15rpx;
+  margin: 10rpx;
+  box-shadow:0 0 6px #dddddd;
+}
+
+.userinfo > view {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+}
+
+.userinfo > view > view{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+  height: 160rpx;
+}
+
+.userinfo-avatar {
+  width: 130.34rpx;
+  height: 130.34rpx;
+  /* margin: 32rpx; */
+  border-radius: 50%;
+  margin: 20rpx;
+}
+
+.userinfo-nickname {
+  color: #707070;
+  font-size: 28rpx;
+  /* margin: 8rpx;  */
+}
+
+.userinfo > view > view > text{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  margin: 15rpx;
+}
+
+.userinfo > view > view > view{
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  margin: 5rpx;
+}
+
+.phone {
+  width: 36rpx;
+  height: 36rpx;
+  margin: 10rpx;
+}
+
+.my-scores {
+  color: #707070;
+  font-size: 26rpx;
+}
+
+.QRcode {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 30rpx;
+  position: relative; 
+  left: 150rpx;
+}
+
+.tab_purchaseInfo {
+  
+  width: 680rpx;
+  height: 334rpx;
+  background-color: white;
+  padding: 15rpx;
+  margin: 10rpx;
+  margin-bottom: 20rpx;
+  box-shadow:0 0 6px #dddddd;
+}
+
+.tab_purchaseInfo {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+.prefix {
+  display: flex; 
+  flex-direction: row;
+  margin-left: 20rpx;
+  margin-bottom:  20rpx;
+}
+
+.tab1 > view{
+  position: relative;
+  bottom: 20rpx;
+}
+
+.purchase_label {
+  width: 386rpx;
+  height: 84rpx;
+  border-radius: 42rpx;
+  background-color: #195680;
+  color: #FFFFFF;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.purchase_add {
+  width: 144rpx;
+  height: 84rpx;
+  font-size: 22rpx;
+  line-height: 30rpx;
+  /* padding:10rpx; */
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  background-color: #195680;
+  border-radius: 42rpx;
+  color: #ffffff;
+}
+
+.table{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  margin: 5rpx;
+  position: relative;
+  left: 22rpx;
+}
+
+
+
+.tr {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center;
+  width: 100%;
+  height: 40rpx;
+  line-height: 32rpx;
+}
+
+.th {
+  width: 40%;
+  justify-content: center;
+  color: #707070;
+  display: flex;
+  align-items: center;
+  font-size: 24rpx;
+  line-height: 48rpx;
+}
+
+.td {
+  width: 40%;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  font-size: 24rpx;
+  line-height: 48rpx;
+}

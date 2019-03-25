@@ -1,0 +1,27 @@
+<!--pages/my/my-pingpingdaidai/my-pingpingdaidai.wxml-->
+<view class="container">
+  <text>我的购物袋</text>
+  <view class="tab_cardInfo">
+    <view class="card_content">
+      <image style="width:80rpx;height:80rpx" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E9%92%B1%E5%8C%85.png"></image>
+      <view class="card_what">ID 685132</view>
+    </view>
+    <text>累计使用次数4次</text>
+  </view>
+  <view class="tab_cardInfo">
+    <view class="card_content">
+      <image style="width:80rpx;height:80rpx" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E9%92%B1%E5%8C%85.png"></image>
+      <view class="card_what">ID 154682 </view>
+    </view>
+    <text>累计使用次数1次</text>
+  </view>
+  <text>我的分装瓶</text>
+  <view class="tab_cardInfo">
+    <view class="card_content">
+      <image style="width:80rpx;height:80rpx" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E7%93%B6%E5%AD%90.png"></image>
+      <view class="card_what">ID 986133</view>
+    </view>
+    <text>累计使用次数1次</text>
+  </view>
+  <button style="width:170rpx;height:170rpx;border-radius:50%;background-color:white;position:relative;top:30rpx;justify-content:center;align-items:center;display:flex;box-shadow:0 0 6px #dddddd;" hover-class="none" bindtap="saoma">添加</button>
+</view>

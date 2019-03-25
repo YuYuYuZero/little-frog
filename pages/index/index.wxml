@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <image mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E9%A6%96%E9%A1%B5-title.png"></image>
+  <view class="btn-window">
+    <navigator hover-class="none" url="index-myPurchasingInfo/index-myPurchasingInfo">
+      <button hover-class="none" class="btn1">我的购物信息</button>
+    </navigator>
+    <navigator hover-class="none" url="index-myCardPackage/index-myCardPackage">
+      <button hover-class="none" class="btn2">我的卡券</button>
+    </navigator>
+    <navigator hover-class="none" url="index-myScores/index-myScores">
+      <button hover-class="none" class="btn3">我的积分</button>
+    </navigator>
+  </view>
+</view>

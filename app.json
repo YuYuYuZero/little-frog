@@ -1,0 +1,42 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/index-myPurchasingInfo/index-myPurchasingInfo",
+    "pages/index/index-myCardPackage/index-myCardPackage",
+    "pages/index/index-myScores/index-myScores",
+    "pages/broadcast/broadcast",
+    "pages/my/my",
+    "pages/my/my-scoreMall/my-scoreMall",
+    "pages/my/my-pingpingdaidai/my-pingpingdaidai"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F5F8FF",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "backgroundColor": "#ECF2FE",
+    "color": "#989898",
+    "selectedColor": "#195680",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页-亮.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/broadcast/broadcast",
+        "iconPath": "images/广播.png",
+        "selectedIconPath": "images/广播-亮.png",
+        "text": "广播"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的-亮.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

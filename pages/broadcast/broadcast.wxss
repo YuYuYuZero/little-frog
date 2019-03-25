@@ -1,0 +1,31 @@
+
+.btn1
+{
+  font-size: 32rpx;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  width: 680rpx;
+}
+.advertisement
+{
+   margin: 10rpx; 
+}
+.lines
+{
+  display: flex;  
+  width :620rpx;
+}
+
+.line1 
+{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.line2
+{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}

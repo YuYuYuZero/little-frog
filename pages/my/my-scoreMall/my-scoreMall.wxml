@@ -1,0 +1,44 @@
+<!--pages/my/my-scoreMall/my-scoreMall.wxml-->
+<view class="container">
+  <view class="my-score">我的积分：{{scores}}</view>
+  <view class="scores-mall">
+    <view class="scores-mall-inner">
+      <view>
+        <button hover-class="none" bindtap="zanweikaifa">
+          <text style="font-size:36rpx">全场</text>
+          <text style="font-size:36rpx">满300减30</text>
+          <text style="font-size:28rpx;opacity:0.5">100积分</text>
+        </button>
+        <button hover-class="none" bindtap="zanweikaifa">
+          <text style="font-size:36rpx">全场</text>
+          <text style="font-size:36rpx">满200减20</text>
+          <text style="font-size:28rpx;opacity:0.5">120积分</text>
+        </button>
+      </view>
+      <view>
+        <button hover-class="none" bindtap="zanweikaifa">
+          <text style="font-size:36rpx">全场</text>
+          <text style="font-size:36rpx">九折优惠券</text>
+          <text style="font-size:28rpx;opacity:0.5">150积分</text>
+        </button>
+        <button hover-class="none" bindtap="zanweikaifa">
+          <text style="font-size:36rpx">全场</text>
+          <text style="font-size:36rpx">八折优惠券</text>
+          <text style="font-size:28rpx;opacity:0.5">200积分</text>
+        </button>
+      </view>
+      <view>
+        <button hover-class="none" bindtap="zanweikaifa">
+          <text style="font-size:36rpx">满200减50</text>
+          <text style="font-size:28rpx;opacity:0.5">限量200份</text>
+          <text style="font-size:28rpx;opacity:0.5">100积分</text>
+        </button>
+        <button hover-class="none" bindtap="zanweikaifa">
+          <text style="font-size:36rpx">家润多</text>
+          <text style="font-size:36rpx">九折优惠券</text>
+          <text style="font-size:28rpx;opacity:0.5">100积分</text>
+        </button>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,28 @@
+<!--pages/index/index-myCardPackage/index-myCardPackage.wxml-->
+<view class="container">
+  <text>满减</text>
+  <view class="tab_cardInfo">
+    <view class="card_content">
+      <view class="card_what">全场20元代金券</view>
+      <view class="card_condition">满200元可用</view>
+    </view>
+    <button hover-class="none" bindtap="zanweikaifa">使用</button>
+  </view>
+
+  <text>折扣</text>
+  <view class="tab_cardInfo">
+    <view class="card_content">
+      <view class="card_what">全场9折优惠券</view>
+      <view class="card_condition">满100元可用</view>
+    </view>
+    <button hover-class="none" bindtap="zanweikaifa">使用</button>
+  </view>
+
+  <view class="tab_cardInfo">
+    <view class="card_content">
+      <view class="card_what">家润多超市9折优惠券</view>
+      <view class="card_condition">满100元可用</view>
+    </view>
+    <button hover-class="none" bindtap="zanweikaifa">使用</button>
+  </view>
+</view>

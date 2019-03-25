@@ -1,0 +1,77 @@
+<!--pages/index/index-my-purchasing-info/index-my-purchasing-info.wxml-->
+<view class="container">
+  <view class="tab_indInfo">
+    <view class="userinfo">
+      <button wx:if="{{!hasUserInfo && canIUse}}" style="position:relative;top:40rpx;" open-type="getUserInfo" bindgetuserinfo="getUserInfo" bindtap="bindViewTap"> 未登录/获取登录信息 </button>
+      <view wx:else>
+        <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+        <view class="userinfo-intro">
+          <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+          <view>
+             <image class="phone" mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E6%89%8B%E6%9C%BA.png"></image> 
+            <text class="my-scores">我的积分：{{scores}}</text>
+          </view>
+        </view>
+        <!-- <navigator url=> -->
+          <image class='QRcode' mode="aspectFit" src="https://lg-8bzen570-1252135052.cos.ap-shanghai.myqcloud.com/little_frog/%E4%BA%8C%E7%BB%B4%E7%A0%81.png" bindtap="zanweikaifa"></image>
+        <!-- </navigator> -->
+      </view>
+    </view>
+  </view>
+
+  <text class="currentPurchaseInfo">本次购物信息</text>
+  <view class="tab_purchaseInfo tab1">
+    <view class="prefix">
+      <view class="purchase_label">购物袋信息：ID 685132</view>
+      <button class="purchase_add" hover-class="none" bindtap="saoma">
+        <text>添加</text>
+        <text>新购物袋</text>
+      </button>
+    </view>
+    <view class="table">
+      <view class="tr bg-w">
+        <view class="th">品名</view>
+        <view class="th">单价</view>
+        <view class="th">数量</view>
+        <view class="th">小计</view>
+      </view>
+      <block wx:for="{{listData1}}" wx:key="{{one}}">
+        <view class="tr">
+          <view class="td">{{item.one}}</view>
+          <view class="td">{{item.two}}</view>
+          <view class="td">{{item.three}}</view>
+          <view class="td">{{item.four}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+
+  <text class="formerPurchaseInfo">历史购物信息</text>
+  <view class="tab_purchaseInfo">
+    <view class="prefix">
+      <view class="purchase_label">购物袋信息：ID 154682</view>
+    </view>
+    <view class="table">
+      <view class="tr bg-w">
+        <view class="th">品名</view>
+        <view class="th">单价</view>
+        <view class="th">数量</view>
+        <view class="th">小计</view>
+      </view>
+      <block wx:for="{{listData2}}" wx:key="{{one}}">
+        <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+          <view class="td">{{item.one}}</view>
+          <view class="td">{{item.two}}</view>
+          <view class="td">{{item.three}}</view>
+          <view class="td">{{item.four}}</view>
+        </view>
+        <view class="tr" wx:else>
+          <view class="td">{{item.one}}</view>
+          <view class="td">{{item.two}}</view>
+          <view class="td">{{item.three}}</view>
+          <view class="td">{{item.four}}</view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>
