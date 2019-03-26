@@ -1,9 +1,9 @@
 # little-frog
-- 很久以前写的小程序
+- 很久以前写的小程序。
 
 - UI designed by friends from Industial Design Major, Hunan University~
 
-- Develop just for the homework presentation for Design Major course.
+- Develop as a demo just for the course design for Design Major.
 
 - 小程序名：呱超联盟
 
