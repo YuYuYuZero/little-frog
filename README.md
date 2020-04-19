@@ -3,9 +3,9 @@
 
 - UI designed by friends from Industial Design Major, Hunan University~
 
-- Develop as a demo just for the course design for Design Major.
+- Develop as a demo.
 
-- 小程序名：呱超联盟
+- 微信小程序名：呱超联盟
 
   
 
